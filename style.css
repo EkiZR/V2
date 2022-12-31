@@ -186,17 +186,15 @@
 
 
  .loading-page {
-   position: fixed;
+   position: absolute;
    top: 0;
    left: 0;
    background: black;
-   height: 100vh;
+   height: 400vh;
    width: 100%;
-   display: flex;
+   text-align: center;
    flex-direction: column;
    gap: 1.5rem;
-   align-items: center;
-   justify-content: center;
  }
 
  #svg {
